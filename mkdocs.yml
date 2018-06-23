@@ -1,7 +1,9 @@
 site_name: SillyWhale images documentation
 pages:
   - Home: index.md
+  - MkDocs:
+    - General: mkdocs/index.md
 theme: rtd-dropdown
-repo_url: https://github.com/SillyWhale/_documenation/
+repo_url: https://github.com/SillyWhale/_documentation/
 site_author: SillyWhale <contact@sillywhale.wtf>
 copyright: SillyWhale
