@@ -1,0 +1,7 @@
+site_name: SillyWhale images documentation
+pages:
+  - Home: index.md
+theme: rtd-dropdown
+repo_url: https://github.com/SillyWhale/_documenation/
+site_author: SillyWhale <contact@sillywhale.wtf>
+copyright: SillyWhale
