@@ -29,12 +29,12 @@ This choice was done to get a light images for a light application.
 
 ### Network Listening
 
-MkDocs is launched in image to listen on :
+MkDocs is launched by default in image to listen on :
 
 - Network address : **0.0.0.0**
 - Network port : **8000**
 
-You couldn't change port without rebuild image.
+See [environment section](#environment) to change this.
 
 ### Volumes
 
@@ -73,3 +73,10 @@ You just do launch in repository folder :
 ```bash
 docker-compose up -d
 ```
+
+### Environment
+
+| Variable name | Default value | Usage |
+| ------------- | ------------- | ----- |
+| MKD\_LISTEN\_ADDR | 0.0.0.0 | Permit to define listening network address |
+| MKD\_PORT | 8000 | Permit to define listening network port |
