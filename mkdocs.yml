@@ -1,4 +1,4 @@
-site_name: SillyWhale images documentation
+site_name: SillyWhale's images documentation
 pages:
   - Home: index.md
   - MkDocs:
