@@ -77,7 +77,7 @@ docker run -p 80:80 \
 
 ```bash
 docker run -p 80:80 \
-        -e PB_DB='sqlite'
+        -e PB_DB=sqlite
         -v ${PWD}/privatebin-data:/privatebin-data \
         sillywhale/privatebin:latest
 ```
@@ -101,11 +101,11 @@ Next, run privatebin container
 ```bash
 docker run -p 80:80 \
         -l privatebindb:privatebindb \
-        -e PB_DB='mysql' \
-        -e PB_MYSQL_DB_HOS='privatebindb' \
-        -e PB_MYSQL_DB_NAME='privatebin' \
-        -e PB_MYSQL_DB_USERNAME='privatebin' \
-        -e PB_MYSQL_DB_PASSWORD='privatebinpassword' \
+        -e PB_DB=mysql \
+        -e PB_MYSQL_DB_HOST=privatebindb \
+        -e PB_MYSQL_DB_NAME=privatebin \
+        -e PB_MYSQL_DB_USERNAME=privatebin \
+        -e PB_MYSQL_DB_PASSWORD=privatebinpassword \
         -v ${PWD}/privatebin-data:/privatebin-data \
         sillywhale/privatebin:latest
 ```
@@ -151,7 +151,7 @@ service:
     volumes:
       - ${PWD}/privatebin-data:/privatebin-data
     environment:
-      - PB_DB='sqlite'
+      - PB_DB=sqlite
     restart: on-failure
 ```
 
@@ -188,10 +188,10 @@ service:
       - ${PWD}/privatebin-data:/privatebin-data
     environment:
       - PB_DB='mysql'
-      - PB_MYSQL_DB_HOS='privatebindb'
-      - PB_MYSQL_DB_NAME='privatebin'
-      - PB_MYSQL_DB_USERNAME='privatebin'
-      - PB_MYSQL_DB_PASSWORD='privatebinpassword'
+      - PB_MYSQL_DB_HOST=privatebindb
+      - PB_MYSQL_DB_NAME=privatebin
+      - PB_MYSQL_DB_USERNAME=privatebin
+      - PB_MYSQL_DB_PASSWORD=privatebinpassword
     depends_on:
       - privatebindb
     restart: on-failure
