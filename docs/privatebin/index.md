@@ -116,7 +116,7 @@ You could use docker-compose.yml file provided in [repository](https://github.co
 
 #### docker-compose-filesystem.yml
 
-```docker
+```yaml
 version: '3.6'
 
 service:
@@ -139,7 +139,7 @@ docker-compose up -d
 
 #### docker-compose-sqlite3.yml
 
-```docker
+```yaml
 version: '3.6'
 
 service:
@@ -164,7 +164,7 @@ docker-compose up -d
 
 #### docker-compose-mariadb.yml
 
-```docker
+```yaml
 version: '3.6'
 
 service:
