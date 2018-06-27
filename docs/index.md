@@ -2,9 +2,9 @@
 
 Welcome on our documentation website.
 
-Here you could be found documentation of any [Docker](https://docker.io) image we provide on [store](https://store.docker.com/) and throught our [GitHub repository](https://github.com/SillyWhale).
+Here you can find documentation about any [Docker](https://docker.io) image we provide on [store](https://store.docker.com/) and throught our [GitHub repository](https://github.com/SillyWhale).
 
-For each image, you'll found a section for it. And if is necessary, we'll create subsection to explain container content.
+For each image, you'll found a section about it. And if it's necessary, we'll create subsections to explain container's content.
 
 According with all we says in [our repository](https://github.com/SillyWhale/_management/blob/master/CONTRIBUTING.md), please be indulgent, we aren't many persons to maintain theses images and this is not our primary work. So, thank four our patience and your kindness.
 
