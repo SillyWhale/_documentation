@@ -13,9 +13,9 @@ According with all we say in [our repository](https://github.com/SillyWhale/_man
 We're a small group of friends, we're passionate by IT and all new technologies in this domain.  
 We recently worked on [Docker](https://docker.io) containers, and we have a real bad analysis of existing packaged apps. (Not all of them fornunatly)
 
-According to this constatations, we've decided to launch [SillyWhale](https://www.sillywhale.wtf) project to provide our help to persons who aren't be confortable with this tech.
+According to these constatations, we've decided to launch [SillyWhale](https://www.sillywhale.wtf) project to provide our help to persons who aren't confortable with this tech.
 
-Our goals is some easier to understand :
+Our goals are rather easy to understand :
 
 - Build docker images
 - Have a good time working on them
