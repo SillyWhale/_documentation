@@ -1,11 +1,12 @@
 site_name: SillyWhale's images documentation
 pages:
   - Home: index.md
-  - MkDocs:
-    - General: mkdocs/index.md
-  - PrivateBin:
-    - General: privatebin/index.md
-theme: rtd-dropdown
+  - Images:
+    - MkDocs:
+      - General: mkdocs/index.md
+    - PrivateBin:
+      - General: privatebin/index.md
+theme: cinder
 repo_url: https://github.com/SillyWhale/_documentation/
 site_author: SillyWhale <contact@sillywhale.wtf>
 copyright: SillyWhale
