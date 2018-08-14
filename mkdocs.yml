@@ -2,6 +2,10 @@ site_name: SillyWhale's images documentation
 pages:
   - Home: index.md
   - Images:
+    - H5AI:
+      - General: h5ai/index.md
+    - Jirafeau:
+      - General: jirafeau/index.md
     - MkDocs:
       - General: mkdocs/index.md
     - PrivateBin:
