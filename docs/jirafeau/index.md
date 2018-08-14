@@ -70,6 +70,7 @@ services:
 ```
 
 You just do launch in repository folder :
+
 ```bash
 docker-compose up -d
 ```
