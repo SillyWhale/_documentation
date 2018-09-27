@@ -47,7 +47,7 @@ This permit you to keep out of container your instance configuration.
 ### Direct run
 
 ```bash
-docker run -p 80:80 -v ${PWD}/datas/uploads:/jirafeau-data sillywhale/jirafeau:latest
+docker run -p 80:80 -v ${PWD}/datas/uploads:/jirafeau-data -e ${PWD}/data/config.local.php:/Jirafeau/lib/config.local.php -e PURGE_ENABLED=true sillywhale/jirafeau:latest
 ```
 
 ### Docker Compose
@@ -63,6 +63,8 @@ services:
     image: sillywhale/jirafeau:latest
     ports:
       - 80:80
+    environment:
+      - PURGE_ENABLED=true
     volumes:
       - ${PWD}/data/config.local.php:/Jirafeau/lib/config.local.php
       - ${PWD}/data/uploads:/jirafeau-data/
@@ -80,3 +82,4 @@ docker-compose up -d
 | Variable name | Default value | Usage |
 | ------------- | ------------- | ----- |
 | SIZE\_LIMIT | 1G | Permit to define upload file size limit |
+| PURGE\_ENABLED | false | Permit to activate expired file purge |
