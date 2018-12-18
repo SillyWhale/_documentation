@@ -10,6 +10,8 @@ pages:
       - General: mkdocs/index.md
     - PrivateBin:
       - General: privatebin/index.md
+    - Unison:
+      - General: unison/index.md
 theme: cinder
 repo_url: https://github.com/SillyWhale/_documentation/
 site_author: SillyWhale <contact@sillywhale.wtf>
